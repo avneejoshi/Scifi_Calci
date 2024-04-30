@@ -66,6 +66,6 @@ class ScientificCalculator(tk.Tk):
         else:
             self.result_var.set(current_value + str(button))
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     app = ScientificCalculator()
     app.mainloop()
